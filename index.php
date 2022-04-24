@@ -26,13 +26,12 @@ $title = 'Добро пожаловать в Owl Academy!';
             </article>
           </section>
           <?php else : ?>
-          <section class="home">
+            <section class="home">
             <article class="home__greeting">
-              <div class="home__greeting-item"><img class="home__greeting-img" src="images/owl-1.svg" alt="Tom"/>
-                <p class="home__greeting-text">Добро пожаловать в мир английского языка, Незнакомец! Здесь ты сможешь получить базовые знания английской грамматики и выучить повседневные слова.</p>
-              </div>
-              <div class="home__greeting-item"><img class="home__greeting-img" src="images/owl-2.svg" alt="Alex"/>
-                <p class="home__greeting-text">Ты можешь отслеживать свой прогресс обучения, но для этого тебе нужно <a class="home__auth-link" href="/signup">зарегестрироваться</a> или <a class="home__auth-link" href="/login">авторизоваться</a> если ты уже стал членом академии.</p>
+              <div class="home__greeting-item">
+                <div class="home__greeting-img-box">
+                  <p class="home__greeting-text">Добро пожаловать в мир английского языка, Незнакомец! Здесь ты сможешь получить базовые знания английской грамматики и выучить повседневные слова. Ты можешь отслеживать свой прогресс обучения, но для этого тебе нужно зарегестрироваться.</p><img class="home__greeting-img" src="images/owl.svg" alt="Tom"/><a class="home__login-btn" href="/login">Войти</a>
+                </div>
               </div>
             </article>
           </section>
